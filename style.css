@@ -1,0 +1,112 @@
+body{
+    width: 100%;
+    margin: 0px;
+    background-color: #e5eff5;
+    font-family: 'Karla';
+}
+.frameOne{
+    width: 40%;
+    margin: 150px auto;
+    border-radius: 10px;
+    box-shadow: 0px 1px 30px -25px #000;
+}
+.containerOne{
+    background-color: white;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.containerOne h1{
+    color: #2ab2af;
+    font-size: 25px;
+}
+.containerOne h2{
+    color: #c0df34;
+    font-size: 18px;
+}
+.containerOne p{
+    color:  #98a6bd;
+    font-weight: 400;
+}
+.frameTwo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.containerTwo{
+    background-color: #2ab2af;
+    padding: 30px;
+    border-bottom-left-radius: 10px;
+}
+.containerTwo h2{
+    color: white;
+    font-size: 18px;
+}
+.containerTwo p{
+    color: #e5eff5;
+}
+.containerTwo span{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+.containerTwo .full{
+    color: white;
+}
+.containerTwo button{
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border: 0px;
+    background-color: #c0df34;
+    border-radius: 5px;
+    box-shadow: 0px 1px 6px -6px #000;
+}
+.containerThree{
+    background-color: #4abebd;
+    padding: 30px;
+    border-bottom-right-radius: 10px;
+}
+.containerThree h2{
+    color: white;
+    font-size: 18px;
+}
+.containerThree p{
+    color: #e5eff5;
+    font-size: 14px;
+    margin: 2px 0;
+}
+.attribution{
+    font-size: 15px;
+    text-align: center;
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
+
+/* Media Query */
+
+@media screen and (max-width: 450px){
+    body{
+        width: 100%;
+    }
+    .frameOne{
+        width: 100%;
+    }
+    .frameTwo{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .containerOne{
+        margin: 0px 30px;
+    }
+    .containerTwo{
+        margin: 0 30px;
+        border-bottom-left-radius: unset;
+    }
+    .containerThree{
+        margin: 0 30px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+}
